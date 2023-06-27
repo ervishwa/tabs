@@ -11,11 +11,11 @@
         background-color:rgb(69, 14, 236);
         color: white;
     }
-    button:hover{
-        color: rgb(69, 14, 236);
-        border-color: rgb(69, 14, 236);
+    // button:hover{
+    //     color: rgb(69, 14, 236);
+    //     border-color: rgb(69, 14, 236);
 
-    }
+    // }
 }
 .text{
     p{
@@ -36,10 +36,10 @@
     color:white;
     border: none;
 }
-
-// .textclassNotActive{
-//  display: unset;
-// }
-// .textActive{
-//     display: none;
-// }
+.buttonNotActive:hover{
+    color: rgb(69, 14, 236);
+    border-color: rgb(69, 14, 236);
+}
+.buttonActive:hover{
+    color: white;
+}
