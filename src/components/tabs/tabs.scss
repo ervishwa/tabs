@@ -1,0 +1,45 @@
+.buttons{
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    button{
+       padding: 9px;
+       border-radius: 5px;
+       cursor: pointer;
+    }
+    .HtmlButton{
+        background-color:rgb(69, 14, 236);
+        color: white;
+    }
+    button:hover{
+        color: rgb(69, 14, 236);
+        border-color: rgb(69, 14, 236);
+
+    }
+}
+.text{
+    p{
+        font-weight:500;
+        font-size: 20px;
+       
+    }
+   
+}
+
+.buttonNotActive{
+    background-color: white;
+    color: rgb(16, 1, 1);
+    border: 2px solid black;
+}
+.buttonActive{
+    background-color: rgb(127, 50, 218);
+    color:white;
+    border: none;
+}
+
+// .textclassNotActive{
+//  display: unset;
+// }
+// .textActive{
+//     display: none;
+// }
